@@ -20,27 +20,27 @@ body>header {
     grid-template-columns: auto;
 }
 
-body>header>:first-child {
+body>header>a {
     justify-self: flex-start;
     margin-left: 2vw;
     margin-top: 1vh;
 }
 
-body>header>:last-child {
+body>header>nav {
     justify-self: flex-end;
 }
 
-body>header a {
+body>header li,a {
     color:white;
     text-decoration: none;
     position: relative;
 }
 
-body>header a:hover {
+body>header a:hover, li:hover {
     text-decoration: underline;
 }
 
-body>header a:active {
+body>header li:active {
     background-color: rgba(68,68,68, 150);
     
 }
