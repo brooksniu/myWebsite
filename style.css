@@ -11,6 +11,7 @@ body {
 }
 
 body>header {
+    z-index: 2;
     position: fixed;
     width: 100%;
     align-items: center;
@@ -56,10 +57,11 @@ nav>ul {
 main {
     /* display: grid; */
     line-height: 1.5;
-    margin-top: clamp(60px, 5vh, 80px);
+    margin-top: clamp(5%, 7%, 8%);
     row-gap: 0.1rem;
     text-align: left;
     width: clamp(300px, 80%, 1500px);
+    z-index: 1;
 }
 
 main>h1 {
